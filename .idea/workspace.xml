@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 12-9-2023">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComMaisDeCincoItens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComValorMaiorQueQuinhentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/SemDesconto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/TestesDesconstos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesDesconstos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694525224981</updated>
-      <workItem from="1694525224985" duration="9244000" />
+      <workItem from="1694525224985" duration="9558000" />
     </task>
     <task id="LOCAL-00001" summary="estudo 12-9-2023">
       <created>1694546847277</created>
@@ -78,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694546847277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="estudo 12-9-2023">
+      <created>1694551489162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694551489162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
