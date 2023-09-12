@@ -8,13 +8,12 @@ import br.com.alura.loja.orcamento.Orcamento;
 
 import java.math.BigDecimal;
 
-public class TestesImpostos {
+public class TestesDesconstos {
     public static void main(String[] args) {
-        Orcamento orcamento = new Orcamento(new BigDecimal("100"), 6);
-        CalculadoraDeImpostos calc = new CalculadoraDeImpostos();
-        CalculadoraDeDescontos desc= new CalculadoraDeDescontos();
-        System.out.println("Passando ICMS: " + calc.calcular(orcamento, new ICMS()));
-        System.out.println("Passando ISS: " + calc.calcular(orcamento, new ISS()));
-        System.out.println("Passando o DESCONTO: " + desc.calcular(orcamento));
+        Orcamento orcamento1 = new Orcamento(new BigDecimal("500"), 6);
+        Orcamento orcamento2 = new Orcamento(new BigDecimal("2500"), 4);
+        CalculadoraDeDescontos desc = new CalculadoraDeDescontos();
+        System.out.println("Passando o DESCONTO por quantidade: " + desc.calcular(orcamento1));
+        System.out.println("Passando o DESCONTO por valor: " + desc.calcular(orcamento2));
     }
 }
