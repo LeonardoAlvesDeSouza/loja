@@ -13,7 +13,7 @@ public class TestesDesconstos {
         Orcamento orcamento1 = new Orcamento(new BigDecimal("500"), 6);
         Orcamento orcamento2 = new Orcamento(new BigDecimal("2500"), 4);
         CalculadoraDeDescontos desc = new CalculadoraDeDescontos();
-        System.out.println("Passando o DESCONTO por quantidade: " + desc.calcular(orcamento1));
-        System.out.println("Passando o DESCONTO por valor: " + desc.calcular(orcamento2));
+        System.out.println("Passando o DESCONTO do primeiro orçamento: " + desc.calcular(orcamento1));
+        System.out.println("Passando o DESCONTO do segundo orçamento: " + desc.calcular(orcamento2));
     }
 }

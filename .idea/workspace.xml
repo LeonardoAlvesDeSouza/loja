@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="">
+    <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 12-9-2023">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComMaisDeCincoItens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComValorMaiorQueQuinhentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/SemDesconto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/TestesDesconstos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesDesconstos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/TestesImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesImpostos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/CalculadoraDeImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/CalculadoraDeImpostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ICMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ISS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/Imposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
       <recent name="br.com.alura.loja.imposto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.loja.descontos" />
       <recent name="br.com.alura.loja" />
       <recent name="br.com.alura.loja.imposto" />
     </key>
@@ -70,11 +69,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694525224981</updated>
-      <workItem from="1694525224985" duration="5951000" />
+      <workItem from="1694525224985" duration="9244000" />
     </task>
+    <task id="LOCAL-00001" summary="estudo 12-9-2023">
+      <created>1694546847277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694546847277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="estudo 12-9-2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="estudo 12-9-2023" />
   </component>
 </project>
