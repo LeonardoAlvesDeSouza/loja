@@ -10,6 +10,6 @@ public class CalculadoraDeDescontos {
                 new DescontoParaOrcamentoComValorMaiorQueQuinhentos(
                         new SemDesconto()));
 
-        return cadeiaDeDescontos.efetuarCalculo(orcamento);
+        return cadeiaDeDescontos.calcular(orcamento);
     }
 }

@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 12-9-2023">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 13-9-2023">
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComMaisDeCincoItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComMaisDeCincoItens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComValorMaiorQueQuinhentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComValorMaiorQueQuinhentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/SemDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/SemDesconto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <updated>1694525224981</updated>
       <workItem from="1694525224985" duration="10344000" />
       <workItem from="1694616674212" duration="401000" />
-      <workItem from="1694617157173" duration="1102000" />
+      <workItem from="1694617157173" duration="1215000" />
     </task>
     <task id="LOCAL-00001" summary="estudo 12-9-2023">
       <created>1694546847277</created>
@@ -93,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694551806858</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="estudo 13-9-2023">
+      <created>1694618296748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694618296748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="estudo 12-9-2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="estudo 12-9-2023" />
+    <MESSAGE value="estudo 13-9-2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="estudo 13-9-2023" />
   </component>
 </project>
