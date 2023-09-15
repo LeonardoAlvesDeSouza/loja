@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 13-9-2023">
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/GeraPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/GeraPedidoHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/AcaoAposGerarPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/EnviarEmailPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/SalvarPedidoNoBancoDeDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Aprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/EmAnalise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Reprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/SituacaoOrcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,9 +62,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.loja.orcamento.pedido.acao" />
+      <recent name="br.com.alura.loja" />
       <recent name="br.com.alura.loja.imposto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.loja.orcamento.situacao" />
       <recent name="br.com.alura.loja.descontos" />
       <recent name="br.com.alura.loja" />
       <recent name="br.com.alura.loja.imposto" />
@@ -65,7 +83,9 @@
       <updated>1694525224981</updated>
       <workItem from="1694525224985" duration="10344000" />
       <workItem from="1694616674212" duration="401000" />
-      <workItem from="1694617157173" duration="1215000" />
+      <workItem from="1694617157173" duration="7225000" />
+      <workItem from="1694697823364" duration="2126000" />
+      <workItem from="1694778148532" duration="7863000" />
     </task>
     <task id="LOCAL-00001" summary="estudo 12-9-2023">
       <created>1694546847277</created>
@@ -95,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694618296748</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="estudo 13-9-2023">
+      <created>1694618414973</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694618414973</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
