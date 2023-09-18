@@ -4,23 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 13-9-2023">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/DomainException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesPedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/GeraPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/GeraPedidoHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/AcaoAposGerarPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/EnviarEmailPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/SalvarPedidoNoBancoDeDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Aprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/EmAnalise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Finalizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Reprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/SituacaoOrcamento.java" afterDir="false" />
+    <list default="true" id="b2efdc28-d341-423e-82f0-3d621ae6436c" name="Changes" comment="estudo 15-9-2023">
+      <change afterPath="$PROJECT_DIR$/src/br/com/loja/TestesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/loja/TestesImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/loja/http/HttpAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/loja/http/JavaHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/RegistroOrcamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/DomainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/DomainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/TestesDesconstos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/TestesDesconstos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/TestesImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/TestesImpostos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/TestesPedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/TestesPedidos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/CalculadoraDeDescontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/descontos/CalculadoraDeDescontos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/Desconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/descontos/Desconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComMaisDeCincoItens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/descontos/DescontoParaOrcamentoComMaisDeCincoItens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/DescontoParaOrcamentoComValorMaiorQueQuinhentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/descontos/DescontoParaOrcamentoComValorMaiorQueQuinhentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/descontos/SemDesconto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/descontos/SemDesconto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/CalculadoraDeImpostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/imposto/CalculadoraDeImpostos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/imposto/ICMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/imposto/ISS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/imposto/Imposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/GeraPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/pedido/GeraPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/GeraPedidoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/pedido/GeraPedidoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/pedido/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/AcaoAposGerarPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/pedido/acao/AcaoAposGerarPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/EnviarEmailPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/pedido/acao/EnviarEmailPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/pedido/acao/SalvarPedidoNoBancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/pedido/acao/SalvarPedidoNoBancoDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Aprovado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/situacao/Aprovado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/EmAnalise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/situacao/EmAnalise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Finalizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/situacao/Finalizado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/Reprovado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/situacao/Reprovado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/situacao/SituacaoOrcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/loja/orcamento/situacao/SituacaoOrcamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,6 +82,7 @@
       <recent name="br.com.alura.loja.imposto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.loja.imposto" />
       <recent name="br.com.alura.loja.orcamento.situacao" />
       <recent name="br.com.alura.loja.descontos" />
       <recent name="br.com.alura.loja" />
@@ -85,7 +101,8 @@
       <workItem from="1694616674212" duration="401000" />
       <workItem from="1694617157173" duration="7225000" />
       <workItem from="1694697823364" duration="2126000" />
-      <workItem from="1694778148532" duration="7863000" />
+      <workItem from="1694778148532" duration="8182000" />
+      <workItem from="1695057258385" duration="10044000" />
     </task>
     <task id="LOCAL-00001" summary="estudo 12-9-2023">
       <created>1694546847277</created>
@@ -122,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694618414973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="estudo 15-9-2023">
+      <created>1694811245081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694811245081</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="estudo 12-9-2023" />
     <MESSAGE value="estudo 13-9-2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="estudo 13-9-2023" />
+    <MESSAGE value="estudo 15-9-2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="estudo 15-9-2023" />
   </component>
 </project>
